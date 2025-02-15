@@ -1,0 +1,57 @@
+.JSCButton {
+    position: relative;
+    height: 40px;
+    width: 770px;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JSCButton.disabled {
+    pointer-events: none;
+}
+
+.JSCButton__text {
+    color: white;
+    z-index: 2;
+}
+
+.JSCButton__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+
+    background-image: url("../resource/textures/gui/widgets.png");
+    background-size: cover;
+    background-size: 512px 512px;
+
+    overflow: hidden;
+}
+.JSCButton__bg.JSCButton__bg--left {
+    background-position: top -132px left 0;
+    left: 0
+}
+.JSCButton__bg.JSCButton__bg--right {
+    background-position: top -132px right -112px;
+    right: 0
+}
+
+.JSCButton:hover .JSCButton__bg.JSCButton__bg--left {
+    background-position: top -172px left 0;
+
+}
+.JSCButton:hover .JSCButton__bg.JSCButton__bg--right {
+    background-position: top -172px right -112px;
+}
+
+.JSCButton.disabled .JSCButton__bg.JSCButton__bg--left {
+    background-position: top -92px left 0;
+
+}
+.JSCButton.disabled .JSCButton__bg.JSCButton__bg--right {
+    background-position: top -92px right -112px;
+}
+
