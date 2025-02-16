@@ -1,7 +1,6 @@
-{   
-	"__comment": "Designed by the resident Inuit with BDcraft Cubik PRO 0.75 Beta - http://BDcraft.net/cubik",
-	"parent": "block/_bdc/pressure_plate_down",
-	"textures": {
-		"pressure_plate": "block/_bdc/pressure_plate_oak"
-	}
+{
+    "parent": "block/pressure_plate_down",
+    "textures": {
+        "texture": "block/oak_planks"
+    }
 }

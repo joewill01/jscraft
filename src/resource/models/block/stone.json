@@ -1,5 +1,4 @@
 {
-	"__comment": "Designed by Sphax for PureBDcraft - http://bdcraft.net",
     "parent": "block/cube_all",
     "textures": {
         "all": "block/stone"

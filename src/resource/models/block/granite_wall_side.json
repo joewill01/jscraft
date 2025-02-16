@@ -1,7 +1,6 @@
 {
     "parent": "block/template_wall_side",
     "textures": {
-        "wall": "block/granite",
-        "wall_top": "block/polished_granite"
+        "wall": "block/granite"
     }
 }

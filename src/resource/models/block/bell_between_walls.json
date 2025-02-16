@@ -1,6 +1,6 @@
 {
     "textures": {
-        "particle": "block/gold_block",
+        "particle": "block/bell_bottom",
         "bar": "block/dark_oak_planks"
     },
     "elements": [

@@ -22,19 +22,19 @@
             "apply": { "model": "block/mushroom_block_inside" }
         },
         {   "when": { "east": false },
-            "apply": { "model": "block/_bdc/mushroom_block_inside_east" }
+            "apply": { "model": "block/mushroom_block_inside", "y": 90, "uvlock": false }
         },
         {   "when": { "south": false },
-            "apply": { "model": "block/_bdc/mushroom_block_inside_south" }
+            "apply": { "model": "block/mushroom_block_inside", "y": 180, "uvlock": false }
         },
         {   "when": { "west": false },
-            "apply": { "model": "block/_bdc/mushroom_block_inside_west" }
+            "apply": { "model": "block/mushroom_block_inside", "y": 270, "uvlock": false }
         },
         {   "when": { "up": false },
-            "apply": { "model": "block/_bdc/mushroom_block_inside_up" }
+            "apply": { "model": "block/mushroom_block_inside", "x": 270, "uvlock": false }
         },
         {   "when": { "down": false },
-            "apply": { "model": "block/_bdc/mushroom_block_inside_down" }
+            "apply": { "model": "block/mushroom_block_inside", "x": 90, "uvlock": false }
         }
     ]
 }

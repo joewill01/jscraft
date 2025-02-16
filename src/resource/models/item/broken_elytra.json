@@ -1,7 +1,6 @@
 {
-	"parent": "item/elytra",
-	"__comment": "Designed by the resident Inuit",
-	"textures": {
-		"texture": "item/broken_elytra"
-	}
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/broken_elytra"
+    }
 }

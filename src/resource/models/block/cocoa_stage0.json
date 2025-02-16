@@ -1,7 +1,7 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "item/cocoa_beans",
+        "particle": "block/cocoa_stage0",
         "cocoa": "block/cocoa_stage0"
     },
     "elements": [

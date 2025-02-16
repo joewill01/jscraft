@@ -1,8 +1,6 @@
 {
-	"__comment": "Model by Sphax - BDcraft.net.",
-	"parent": "item/_bdc/sign",
+    "parent": "item/generated",
     "textures": {
-        "particle": "block/jungle_planks",
-		"texture": "item/jungle_sign"
+        "layer0": "item/jungle_sign"
     }
 }

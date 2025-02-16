@@ -3,6 +3,6 @@
     "textures": {
         "bottom": "block/sandstone_bottom",
         "top": "block/sandstone_top",
-        "side": "block/_bdc/sandstone_slab_h"
+        "side": "block/sandstone"
     }
 }

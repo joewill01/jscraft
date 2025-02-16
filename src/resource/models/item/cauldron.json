@@ -1,4 +1,6 @@
 {
-	"__comment": "Designed by Sphax for PureBDcraft - http://bdcraft.net",
-	"parent": "block/cauldron"
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/cauldron"
+    }
 }

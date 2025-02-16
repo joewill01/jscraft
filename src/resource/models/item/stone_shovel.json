@@ -1,6 +1,5 @@
 {
-	"__comment": "Designed by Sphax for PureBDcraft - http://bdcraft.net",
-    "parent": "item/_bdc/shovel",
+    "parent": "item/handheld",
     "textures": {
         "layer0": "item/stone_shovel"
     }

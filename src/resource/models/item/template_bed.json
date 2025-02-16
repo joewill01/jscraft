@@ -7,14 +7,14 @@
             "scale":[ 0.23, 0.23, 0.23]
         },
         "firstperson_righthand": {
-            "rotation": [ 0, 160, 0 ],
+            "rotation": [ 30, 160, 0 ],
             "translation": [ 0, 3, 0],
             "scale":[ 0.375, 0.375, 0.375]
         },
         "gui": {
-            "rotation": [ 30, 225, 0 ],
-            "translation": [ -2.7, 1, 0],
-            "scale":[ 0.46, 0.46, 0.46]
+            "rotation": [ 30, 160, 0 ],
+            "translation": [ 2, 3, 0],
+            "scale":[ 0.5325, 0.5325, 0.5325]
         },
         "ground": {
             "rotation": [ 0, 0, 0 ],

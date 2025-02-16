@@ -1,6 +1,6 @@
 {
-    "parent": "block/_bdc/backface",
+    "parent": "block/cube_all",
     "textures": {
-        "texture": "block/spawner"
+        "all": "block/spawner"
     }
 }

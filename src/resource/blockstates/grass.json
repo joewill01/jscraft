@@ -1,9 +1,5 @@
 {
     "variants": {
-        "": [
-            { "model": "block/grass", "weight": 2000 },
-            { "model": "block/_bdc/clover_01", "weight": 200 },
-            { "model": "block/_bdc/clover_02", "weight": 1 }
-        ]
+        "": { "model": "block/grass" }
     }
 }

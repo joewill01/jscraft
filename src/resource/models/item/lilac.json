@@ -1,6 +1,5 @@
 {
-	"__comment": "Designed by Sphax for PureBDcraft - http://bdcraft.net",
-	"parent": "item/_bdc/item_cross",
+    "parent": "item/generated",
     "textures": {
         "layer0": "block/lilac_top"
     }

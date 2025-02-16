@@ -9,7 +9,7 @@
     },
     "textures": {
         "particle": "block/smoker_front_on",
-        "down": "block/smooth_stone",
+        "down": "block/smoker_bottom",
         "up": "block/smoker_top",
         "north": "block/smoker_front_on",
         "east": "block/smoker_side",

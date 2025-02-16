@@ -1,5 +1,5 @@
 {
-    "parent": "item/_bdc/item_cross",
+    "parent": "item/generated",
     "textures": {
         "layer0": "block/dead_tube_coral"
     }
