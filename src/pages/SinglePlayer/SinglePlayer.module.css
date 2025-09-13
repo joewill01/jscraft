@@ -1,0 +1,42 @@
+.topSection {
+    position: absolute;
+    top: 0;
+    height: 96px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 2;
+}
+.topSection p {
+    color: white;
+}
+
+.middleSection {
+    position: absolute;
+    top: 96px;
+    bottom: 128px;
+    width: 100%;
+}
+
+.lowerSection {
+    position: absolute;
+    bottom: 0;
+    height: 128px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonGrid {
+    display: grid;
+    grid-template-columns: 144px 12px 144px 16px 144px 12px 144px;
+    grid-template-rows: 40px 8px 40px;
+    grid-template-areas:
+        "play play play . create create create"
+        ". . . . . . ."
+        "edit . delete . recreate . cancel"
+}

@@ -1,0 +1,52 @@
+@keyframes splash-animation {
+    from {transform: rotate(-22deg) scale(1);}
+    to {transform: rotate(-22deg) scale(1.05);}
+}
+  
+.container {
+    position: absolute;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.segment {
+    display: inline-block;
+    height: 90px;
+    background-image: url("../../../assets/resource/textures/gui/title/minecraft_old.png");
+    background-size: 512px 512px;
+    image-rendering: pixelated;
+}
+.segment.segment_left {
+    width: 310px;
+    background-position: 0 0;
+}
+.segment.segment_right {
+    width: 238px;
+    background-position: 0 -90px;
+}
+
+.edition {
+    display: block;
+    background-image: url("../../../assets/resource/textures/gui/title/edition.png");
+    position: absolute;
+    bottom: -16px;
+    width: 196px;
+    height: 32px;
+    background-size: cover;
+    image-rendering: pixelated;
+}
+
+.splash {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-22deg);
+    color: yellow;
+    animation-name: splash-animation;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    white-space: nowrap;
+    font-size: 24px;
+}

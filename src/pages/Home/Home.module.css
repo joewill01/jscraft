@@ -1,0 +1,35 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonGrid {
+    position: absolute;
+    top: 45%;
+
+    display: grid;
+    grid-template-columns: 196px 8px 196px;
+    grid-template-rows: 48px 48px 72px 40px;
+    grid-template-areas:
+        "singleplayer singleplayer singleplayer"
+        "multiplayer multiplayer multiplayer"
+        "realms realms realms"
+        "options none quit";
+}
+
+.versionText {
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+}
+
+.copyrightText {
+    position: absolute;
+    bottom: 0;
+    right: 4px;
+}
