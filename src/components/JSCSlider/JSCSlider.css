@@ -1,0 +1,46 @@
+.JSCSlider {
+    background-color: red;
+    height: 40px;
+    width: 450px
+}
+
+.JSCSlider input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    margin: 0;
+    background: none;
+}
+/* Thumb styling */
+.JSCSlider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px; /* Adjust as needed */
+    height: 40px;
+
+    background-image: url("../../resource/textures/gui/widgets.png");
+    background-size: cover;
+    background-size: 512px 512px;
+
+    border-radius: 0%;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  /* Mirrored thumb */
+  .JSCSlider input[type="range"]::-webkit-slider-thumb::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../../resource/textures/gui/widgets.png");
+    background-size: cover;
+    background-size: 512px 512px;
+
+    transform: scaleX(-1);
+    clip-path: inset(0 50% 0 0); /* Show only the mirrored part */
+  }

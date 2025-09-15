@@ -13,7 +13,7 @@
 .segment {
     display: inline-block;
     height: 90px;
-    background-image: url("../../../assets/resource/textures/gui/title/minecraft_old.png");
+    background-image: url("../../../assets/resource/textures/gui/title/minecraft.png");
     background-size: 512px 512px;
     image-rendering: pixelated;
 }

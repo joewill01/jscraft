@@ -1,6 +1,7 @@
 import { Dispatch, SetStateAction } from 'react';
 import { UiAPIType } from '../../utils/UiAPI';
 import './GameInstance.module.css';
+import Text from '../Text';
 
 type GameInstanceProps = {
     UiAPI: UiAPIType;
@@ -14,7 +15,7 @@ function GameInstance({UiAPI, setGameAPI}: GameInstanceProps) {
 
     return (
         <div>
-            <p>This is the game instance</p>
+            <Text style={{color: "black"}}>This is the game instance</Text>
             <button onClick={()=>{UiAPI.testFunction()}}>Test</button>
         </div>
     );

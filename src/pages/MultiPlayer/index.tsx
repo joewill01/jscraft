@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import BlockBackground from '../../components/BlockBackground';
+import OptionsBackground from '../../components/OptionsBackground';
 import Button from '../../components/Button';
-import TextInput from '../../components/TextInput';
 import styles from './MultiPlayer.module.css';
 import ScrollView from '../../components/ScrollView';
 
@@ -11,7 +10,7 @@ function MultiPlayer() {
     return (
         <div className={styles.container}>
             <div className={styles.topSection}>
-                <BlockBackground />
+                <OptionsBackground />
                 <p className={styles.title}>Play Multiplayer</p>
             </div>
 
@@ -42,7 +41,7 @@ function MultiPlayer() {
 
 
             <div className={styles.lowerSection}>
-                <BlockBackground />
+                <OptionsBackground />
                 <div className={styles.buttonGrid}>
                     <Button style={{gridArea: "join"}} disabled>Join Server</Button>
                     <Button style={{gridArea: "direct"}}>Direct Connection</Button>

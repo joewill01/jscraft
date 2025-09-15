@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/singleplayer" element={<SinglePlayer />} />
         <Route path="/multiplayer" element={<MultiPlayer />} />
-        <Route path="/game" element={<Game />} />
+        <Route path="/game/:worldId" element={<Game />} />
       </Routes>
     </BrowserRouter>
   );

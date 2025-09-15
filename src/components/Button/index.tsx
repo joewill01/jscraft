@@ -1,3 +1,4 @@
+import Text from '../Text';
 import styles from './Button.module.css';
 
 function Button(props: { style?: React.CSSProperties; disabled?: boolean; onClick?: () => void; children: string }) {
@@ -6,7 +7,7 @@ function Button(props: { style?: React.CSSProperties; disabled?: boolean; onClic
       <span className={`${styles.bg} ${styles.bgLeft}`}></span>
       <span className={`${styles.bg} ${styles.bgRight}`}></span>
 
-      <p className={styles.text}>{props.children}</p>
+      <Text className={styles.text} shadow>{props.children}</Text>
     </div>
   );
 }

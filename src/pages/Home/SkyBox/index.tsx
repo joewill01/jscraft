@@ -5,10 +5,10 @@ function SkyBox() {
     <div className={styles.container}>
         <div className={styles.position}>
             <div className={styles.faces}>
-                <img src={require('../../../assets/resource/textures/gui/title/background/panorama_0.png')} />
-                <img src={require('../../../assets/resource/textures/gui/title/background/panorama_1.png')} />
-                <img src={require('../../../assets/resource/textures/gui/title/background/panorama_2.png')} />
-                <img src={require('../../../assets/resource/textures/gui/title/background/panorama_3.png')} />
+                <img className={styles.face} src={require('../../../assets/resource/textures/gui/title/background/panorama_0.png')} alt="" />
+                <img className={styles.face} src={require('../../../assets/resource/textures/gui/title/background/panorama_1.png')} alt="" />
+                <img className={styles.face} src={require('../../../assets/resource/textures/gui/title/background/panorama_2.png')} alt="" />
+                <img className={styles.face} src={require('../../../assets/resource/textures/gui/title/background/panorama_3.png')} alt="" />
             </div>
         </div>
     </div>

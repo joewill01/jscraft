@@ -99,9 +99,7 @@ function createFont() {
             }
             html, input {
                 font-family: 'ResourceFont', sans-serif;
-                text-shadow: 0.125em 0.125em #444;
                 letter-spacing: 0.125em;
-                font-size: 16px;
             }
         `;
         document.head.appendChild(style);

@@ -1,0 +1,7 @@
+.text {
+    font-size: 16px;
+}
+
+.text.shadow {
+    text-shadow: 0.125em 0.125em #444;
+}

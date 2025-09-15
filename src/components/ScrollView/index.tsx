@@ -1,12 +1,20 @@
-import BlockBackground from '../BlockBackground';
+import OptionsBackground from '../OptionsBackground';
 import styles from './ScrollView.module.css';
 
-function ScrollView(props: { style?: React.CSSProperties; children: React.ReactNode }) {
+type ScrollViewProps = {
+    children: React.ReactNode;
+    style?: React.CSSProperties;
+    className?: string;
+    contentContainerStyle?: React.CSSProperties;
+    contentContainerClassName?: string;
+}
+
+function ScrollView({ children, style, className, contentContainerStyle, contentContainerClassName }: ScrollViewProps) {
   return (
-    <div className={styles.container} style={props.style}>
-        <div className={styles.content}>
-            <BlockBackground style={{filter: "brightness(0.125)"}}/>
-            {props.children}
+    <div className={`${styles.container} ${className}`} style={style}>
+        <div className={`${styles.content} ${contentContainerClassName}`} style={contentContainerStyle}>
+            <OptionsBackground style={{filter: "brightness(0.125)"}}/>
+            {children}
         </div>
     </div>
   );

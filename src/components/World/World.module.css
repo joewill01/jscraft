@@ -1,0 +1,74 @@
+.container {
+    position: relative;
+    height: 68px;
+    width: 536px;
+    border: 2px solid #00000000;
+}
+.container.selected {
+    border: 2px solid #808080;
+}
+.container:hover .hoverOverlay {
+    display: block;
+}
+
+.hoverOverlay {
+    display: none;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 64px;
+    width: 64px;
+    z-index: 2;
+    background-color: #aaaaaa80;
+}
+.hoverOverlay:hover .play {
+    background-position: 0 -64px;
+}
+
+.play {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    
+    width: 64px;
+    height: 64px;
+
+    background-image: url("../../assets/resource/textures/gui/world_selection.png");
+    background-size: 512px 512px;
+}
+
+
+.preview {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+
+    height: 64px;
+    width: 64px;
+    image-rendering: pixelated;
+}
+
+.worldName {
+    position: absolute;
+    top: 4px;
+    left: 72px;
+
+}
+
+.version {
+    position: absolute;
+    top: 26px;
+    left: 72px;
+    color: #7e7e7e;
+
+}
+
+.mode {
+    position: absolute;
+    top: 44px;
+    left: 72px;
+    color: #7e7e7e;
+
+}

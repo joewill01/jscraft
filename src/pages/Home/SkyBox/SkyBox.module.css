@@ -33,7 +33,7 @@
     animation-timing-function: linear;
 }
 
-img {
+.face {
     position: absolute;
     display: block;
     width: 100vw;
@@ -45,18 +45,18 @@ img {
     image-rendering: pixelated;
 }
 
-img:nth-child(1) {
+.face:nth-child(1) {
     transform: rotate3d(0,1,0,180deg) translate3d(0,0,-49.9vw) scaleX(-1);
 }
 
-img:nth-child(2) {
+.face:nth-child(2) {
     transform: translate3d(49.9vw,0,0) rotate3d(0,1,0,-90deg) scaleX(-1);
 }
 
-img:nth-child(3) {
+.face:nth-child(3) {
     transform: translate3d(0,0,-49.9vw) scaleX(-1);
 }
 
-img:nth-child(4) {
+.face:nth-child(4) {
     transform: translate3d(-49.9vw,0,0) rotate3d(0,1,0,90deg) scaleX(-1);
 }
