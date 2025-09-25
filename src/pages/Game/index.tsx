@@ -1,10 +1,11 @@
 import { useParams } from "react-router-dom";
 import GameInstance from "../../components/GameInstance";
 import Text from "../../components/Text";
-import { GetUiAPI } from "../../utils/UiAPI";
+import { useUiAPI } from "../../hooks/useUiAPI";
 import styles from "./Game.module.css"
 
 function Game() {
+    let UiAPI = useUiAPI();
     let GameAPI;
     let { worldId } = useParams();
 
@@ -15,7 +16,7 @@ function Game() {
     return (
         <div className={styles.container}>
             <Text style={{color: "black"}}>{`World ID: ${worldId}`}</Text>
-            <GameInstance UiAPI={GetUiAPI()} setGameAPI={setGameAPI}/>
+            <GameInstance UiAPI={UiAPI} setGameAPI={setGameAPI}/>
         </div>
   );
 }

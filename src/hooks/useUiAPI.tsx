@@ -1,12 +1,11 @@
-import { testFunction } from "./testFunction"
+import { testFunction } from "../utils/testFunction"
 
 export type UiAPIType = {
-    testFunction: () => void;
+    testFunction: () => void
 }
 
 // use this to expose functions to the game
-
-export function GetUiAPI(){
+export function useUiAPI(){
     return {
         testFunction: testFunction
     }
