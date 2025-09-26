@@ -28,6 +28,7 @@ export class Chunk {
 		this.uuid = chunk_geom.uuid
 
         this.cdata.forEach((id, e) => {
+			console.log(id)
             let y = Math.floor(e / 256);
             let lx = Math.floor((e - (256 * y)) / 16); // renamed from x to lx
             let lz = (e - (256 * y) - (lx * 16));      // renamed from z to lz

@@ -13,8 +13,8 @@ export function InitGame(renderer: THREE.WebGLRenderer, multiplayer: boolean): v
             const chunk = new Chunk(message.chunk.x, message.chunk.z, message.chunk.blocks).render();
 
             scene.add(chunk);
-            camera.position.set(8, 20, 8);
-            camera.lookAt(new THREE.Vector3(8, 0, 8));
+            camera.position.set(50, 60, 35);
+            camera.lookAt(new THREE.Vector3(8, 30, 8));
         }
     }, multiplayer);
 
